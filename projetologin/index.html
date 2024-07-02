@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Login</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="celular.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="tablet.css" media="screen and (orientation: landscape)">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div class="foto">
+                
+            </div>
+            <div class="login-content">
+                <h2>Login</h2>
+                <p>Seja bem-vindo(a) Novamente, Faça o seu login para acessar sua conta, para poder fazer alterações em seu ambiente</p>
+                <form action="login.php" method="post" class="formulario">
+                    <div class="icon">
+                        <i class='bx bxs-user'></i>
+                    </div>
+                    <input type="email" name="email" id="iemail" required placeholder="Seu e-mail" size="40" class="em"> <br>
+                    <div class="icon">
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
+                    <input type="password" name="senha" id="isenha" required placeholder="Sua senha" size="40">
+                    <div class="btn">
+                        <input type="submit" value="Entrar">
+                    </div>
+                    <div class="btn2">
+                        <a href="#">Esqueci a senha </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

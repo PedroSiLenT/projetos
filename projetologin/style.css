@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background-image: linear-gradient(to bottom, #904c77, #9ee493b0);
+    background-attachment: fixed ;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#login {
+    display: flex;
+    background-color: white;
+    max-width: 800px;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.4s;
+
+    position: relative;
+    transform: translate(-50%, -50%);
+}
+
+.login-content {
+    padding: 20px;
+}
+
+.login-content h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.login-content p {
+    padding-bottom: 30px;
+}
+
+.foto {
+   background-image: url(imagem/pexels-reinaldo-simoes-17909292.jpg);
+   width: 450px;
+   height: 320px;
+   background-size: cover;
+   background-position: center bottom;
+}
+
+.formulario {
+    text-align: center;
+    padding-top:  15px;
+}
+
+.formulario input {
+    padding: 6px;
+    margin: 4px 4px 4px 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.icon {
+    display: inline;
+    background-color: #904c77;
+    padding: 6px;
+    padding-bottom: 8px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn {
+    display: block;
+    margin: 5px;
+}
+
+.btn input {
+    color: white;
+    background-color: rgb(24, 143, 143);
+    text-decoration: none;
+    padding-right: 155px;
+    padding-left: 165px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+
+    border: 1px solid rgb(24, 143, 143);
+    font-weight: bolder;
+}
+
+.btn input:hover {
+    cursor: pointer;
+}
+
+.btn2 {
+    display: inline-block;
+    margin: 10px;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: rgb(24, 143, 143);
+    border: 1px solid rgb(24, 143, 143);
+    padding-right: 120px;
+    padding-left: 120px;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-right: 2px;
+}
+
+.btn2 a:hover {
+    background-color: rgb(24, 143, 143);
+    color: white;
+    cursor: pointer;
+}

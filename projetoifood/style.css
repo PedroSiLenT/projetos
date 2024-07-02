@@ -1,0 +1,301 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color1: #fac031;
+}
+
+/* HEADER */
+
+.header-content {
+    display: flex;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.445);
+}
+
+.header-content img {
+    width: 140px;
+    height: 60px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar li {
+    padding: 10px;
+    display: inline;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.navbar a:hover {
+    color: #fac031;
+    text-decoration: underline;
+    transition: 0.1s ease-in;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.nav-icons ul{
+    list-style: none;
+}
+
+.nav-icons li {
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.nav-icons a {
+    color: black;
+}
+
+.nav-icons a:hover {
+    color: #fac031;
+    transition: 0.1s ease-in;
+}
+
+#navbar-responsive {
+    display: none;
+}
+
+/* HOME */
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1700px;
+    transition: 0.5s ease-in;
+}
+
+.home-text h1 {
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.home-text h1 span {
+    font-family: mv boli;
+    color: #fac031;
+}
+
+.home-text p {
+    text-align: center;
+    text-align: justify;
+    width: 700px;
+    padding-top: 50px;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+}
+
+.home-img img {
+    width: 500px;
+    padding-top: 130px;
+}
+
+.btn {
+    padding-top: 60px;
+}
+
+.btn button {
+    border: none;
+    background-color: #fac031;
+    padding: 15px 25px;
+    color: white;
+    font-size: medium;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #fac031;
+    border: 1px solid #fac031;
+}
+
+/* ABOUT */
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 1300px;
+    padding-top: 350px;
+    transition: 0.5s ease-in;
+}
+
+.imgabout img {
+    width: 600px;
+}
+
+.a-content h1 {
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+.a-content h1 span{
+    font-family: mv boli;
+    color: #fac031;
+}
+
+.a-content h3 {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.a-content p {
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+/* FOODS */
+
+#food {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 350px;
+    max-width: 1700px;
+    margin: auto;
+}
+
+.card {
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.card img{
+    height: 200px;
+}
+
+.card-body h5 {
+    color: #fac031;
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-body p {
+    text-align: center;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+}
+
+.card-body a{
+    background-color: black;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:900px) {
+    #navbar-responsive {
+        display: block;
+        
+    }
+
+    .header-content {
+        display: none;
+    }
+
+    #navbar-responsive img{
+    width: 140px;
+    height: 60px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    } 
+}
+
+@media (max-width:1200px) {
+    .home {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        transition: 0.5s ease-in;
+    }
+
+    .home-text p {
+        margin: auto;
+        width: 500px;
+        transition: 0.5s ease-in;
+    }
+
+    .about {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        transition: 0.5s ease-in;
+    }
+
+    .a-content p {
+        margin: auto;
+        width: 500px;
+        transition: 0.5s ease-in;
+    }
+}

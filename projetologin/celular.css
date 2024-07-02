@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:768px){
+
+    html {
+        background-color: #904c77;
+    }
+
+    #login {
+        display: block;
+        max-width: 450px;
+        transition: 0.4s;
+    }
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="imagens/logo.png" alt="">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#homa">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallary">Gallary</a></li>
+                    <li><a href="#review">Review</a></li>
+                    <li><a href="#order">Order</a></li>
+                </ul>
+            </nav>
+            <nav class="nav-icons">
+                <ul>
+                    <li><a href="#"><i class='bx bx-search'></i></a></li>
+                    <li><a href="#"><i class='bx bxs-heart' ></i></a></li>
+                    <li><a href="#"><i class='bx bxs-cart' ></i></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="navbar-responsive">
+            <nav class="navbar bg-body-tertiary fixed-top">
+                <div class="container-fluid">
+                <img src="imagens/logo.png" alt="">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                    <img src="imagens/logo.png" alt="">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallary">gallary</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#review">Review</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#order">Order</a>
+                        </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <main>
+        <section class="home">
+                <div class="home-text">
+                    <h1>Get Fresh <span>Food</span> <br> in a Easy Way</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa iure corporis fugit, ut deserunt nesciunt eius, sit facilis iusto aliquid earum maxime, tenetur obcaecati ducimus est ipsam et numquam beatae. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga perspiciatis libero provident adipisci explicabo facere quam modi iusto. Ullam quisquam, doloribus temporibus rem alias minus quam at aspernatur natus officiis?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa iure corporis fugit, ut deserunt nesciunt eius, sit facilis iusto aliquid earum maxime?</p>
+
+                    <div class="btn">
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="home-img">
+                    <img src="imagens/main_img.png" alt="">
+                </div>
+        </section>
+        <section class="about">
+            <div class="imgabout">
+                <img src="imagens/Food-Plate.png" alt="">
+            </div>
+            <div class="a-content">
+                <h1><span>About</span> Us</h1>
+                <h3>Why Choose us?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, enim molestiae eligendi et saepe debitis itaque earum totam repudiandae repellat consequatur accusantium odit laboriosam optio possimus deleniti, modi quis dolor! Similique mollitia labore quod ut unde, aliquam quisquam perspiciatis quae tempore ab dolore quaerat, hic totam, tenetur omnis illo facere voluptatem odit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem magnam ullam, iusto eveniet incidunt esse, porro at voluptatem aperiam ad unde veritatis. Laborum maiores corrupti facilis perspiciatis atque iste ea?</p>
+                <div class="btn">
+                    <button>Order Now</button>
+                </div>
+            </div>
+        </section>
+        <section id="food">
+            <div class="card" style="width: 19rem;">
+                <img src="imagens/buger.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Burger</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="#">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/pasta.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Pasta</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="#">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/lasagna.webp" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Lasagna</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="#">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/chocolate_Drink.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Drink</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="#">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/pizza.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Pizza</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/Hot_dog.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Hot dog</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/juse.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Juse</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/biryani.webp" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Biryani</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/chocolate.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Chocolate</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/ice_cream.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Ice cream</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/Spanchi.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Spanchi</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="">Order Now</a>
+                </div>
+              </div>
+              <div class="card" style="width: 19rem;">
+                <img src="imagens/sandwich.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Sandwich</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam neque.</p>
+                  <p>$20.00</p>
+                  <a href="">Order Now</a>
+                </div>
+              </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
